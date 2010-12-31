@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>bPlayer Test Sandbox</title>
+		<link rel="stylesheet" type="text/css" href="player.css" />
+		<script type="text/javascript" src="player-min.js"></script>
+		<script type="text/javascript">
+			var testPlayer = new bPlayer(7, 'test-gifs/test', '.gif', 'Testing me...');
+			var additionalPlayer = new bPlayer(7, 'test-gifs/test', '.gif', 'Testing another me...');
+		</script>
+	</head>
+	<body>
+		<div align="center">
+			<a href="animation-1.html" target="_blank" onclick="return testPlayer.deploy(this);">This is a link to an animation...</a><br /><br /><br />
+			<a href="animation-2.html" onclick="return additionalPlayer.deploy(this);">This is another link to an animation...</a><br />
+		</div>
+	</body>
+</html>

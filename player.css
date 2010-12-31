@@ -1,0 +1,34 @@
+.playerContainer {text-align:left; background-color:#666666; font-family:trebuchet ms, luxi sans, bitstream vera sans, verdana, sans-serif; font-size:10px; width:0px; height:0px; margin-left:auto; margin-right:auto; border:1px solid #999999;}
+
+.playerControls {width:512px; margin:5px;}
+
+.playerMainControls {position:relative; height:36px; font-family:sans-serif; color:#cccccc;}
+.playerPlayPause {float:left; height:30px; width:80px; background-color:#8fbe60; background-image:url('controlIcons.png'); background-repeat:no-repeat; background-position:-79px -32px; padding-left:47px; padding-top:3px; font-family:trebuchet ms, luxi sans, bitstream vera sans, verdana, sans-serif; font-size:20px; font-weight:bold; text-decoration:none; outline:none; color:#000000; border:1px outset #8fbe60;}
+.playerPlayPause:hover {background-color:#a0cb74;}
+.playerPlayPause:active {background-color:#c0daa5; border-style:inset;}
+.playerDirectionControls {padding-top:2px; text-transform:uppercase; float:right;}
+.playerDirectionSelect {text-transform:none; margin-right:5px;}
+.playerSpeedControls {padding-top:2px; text-transform:uppercase; float:right;}
+.playerSpeedSelect {text-transform:none; margin-right:5px;}
+.playerClose {float:right; height:20px; color:#cccccc; background-image:url('controlIcons.png'); background-repeat:no-repeat; outline:none; border:1px solid #666666; background-position:38px -32px; text-transform:uppercase; text-decoration:none; width:60px; padding-top:4px;}
+.playerClose:hover {border-style:outset; text-decoration:underline;}
+.playerClose:active {border-style:inset;}
+
+.playerFrameBar {position:relative; height:36px;}
+.playerFrameBar a {display:block; position:absolute; top:0px; height:32px; width:32px; background-image:url('controlIcons.png'); background-repeat:no-repeat; outline:none; border:1px solid #666666;}
+.playerFrameBar a:hover {border-style:outset;}
+.playerFrameBar a:active {border-style:inset;}
+.playerGoFirst {left:0px; background-position:0 0;}
+.playerGoBack {left:36px; background-position:-32px 0px;}
+.playerGoForward {right:36px; background-position:-64px 0px;}
+.playerGoLast {right:0px; background-position:-96px 0px;}
+
+.playerTotalBar {position:absolute; left:72px; top:8px; height:20px; width:368px; background-color:#cccccc; font-family:times, serif; font-size:12pt;}
+.playerElapsedSlides {position:absolute; left:0px; top:0px; margin-left:5px; z-index:3; color:#555555; cursor:default;}
+.playerElapsedBar {position:absolute; left:0px; top:0px; height:20px; width:0px; background-color:#8fbe60; background-image:url('controlIcons.png'); background-repeat:repeat-x; background-position:0px -96px; z-index:2;}
+.playerTotalSlides {position:absolute; right:0px; top:0px; margin-right:5px; z-index:3; color:#555555; cursor:default;}
+
+.playerFrame {width:512px; height:342px; margin:5px; background-color:#cccccc; border:1px solid #777777;}
+
+.playerFooter {position:relative; margin:5px; color:#cccccc; font-size:10pt;}
+.playerAboutLink {position:absolute; right:0px; color:#cccccc;}

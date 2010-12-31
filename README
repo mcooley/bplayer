@@ -1,0 +1,6 @@
+This is a small script to display stop-motion animations (in the form of 512x342px images). The player can be embedded into a webpage and slides open when clicking a link.
+
+I wrote this to teach myself some JavaScript when I was a freshman in high school.
+
+End-user documentation is in about.html. Some embedding instructions are in player.js, but the example in index.html may be more useful.
+
